@@ -1,0 +1,32 @@
+From: Priya Natarajan <priya.natarajan@example.com>
+To: Jordan Reyes <jordan.reyes@example.com>
+Date: Mon, 26 Oct 2026 14:20:00 -0700
+Subject: Re: Project Lighthouse | Weekly decisions and funding
+Message-ID: <lighthouse-m02-2026@example.com>
+In-Reply-To: <lighthouse-m01-2026@example.com>
+References: <lighthouse-m01-2026@example.com>
+X-Lighthouse-Scenario:
+ Fictional training evidence; do not deliver to example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Jordan,
+
+The vendor has moved delivery of the test connector from November 6 to Novemb=
+er 13. I own risk R02, Digital vendor integration delay. I have reserved Nove=
+mber 16 to 18 for integration tests, but there is little time to recover if t=
+he connector arrives late or critical defects remain.
+
+We can run a stub based test while we wait. That will exercise our side of th=
+e workflow; it will not prove the production integration. Please do not descr=
+ibe the vendor dependency as resolved just because the stub test passes.
+
+Devon still owns R01, Branch readiness and coaching coverage. He is confirmin=
+g protected coaching time and queue routing checks for all four pilot branche=
+s. We should present those as two separate risks with separate owners.
+
+Priya
+
+Fictional training evidence. No real member, employee, or financial informati=
+on.
